@@ -1,0 +1,2 @@
+Classifier,Val Macro-F1,Test Macro-F1
+BERT fine-tuned (bert-base-multilingual-cased),0.997598688676189,0.9972000973501723

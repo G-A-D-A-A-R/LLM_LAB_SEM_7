@@ -31,3 +31,5 @@ tempCodeRunnerFile.*
 # Secrets & Environment Variables
 .env
 .env.*
+*.pt
+lid_model_artifacts.pkl

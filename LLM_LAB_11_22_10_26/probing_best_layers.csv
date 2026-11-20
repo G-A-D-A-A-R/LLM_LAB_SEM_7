@@ -1,0 +1,4 @@
+,best layer,best test acc %,baseline %,gain over baseline (pts)
+SentLen,0,96.24,16.7,79.57
+BShift,9,90.2,50.0,40.2
+SubjNum,7,88.6,50.0,38.6

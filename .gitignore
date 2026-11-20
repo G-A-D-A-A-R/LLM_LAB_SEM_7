@@ -1,0 +1,33 @@
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE & Editor artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+tempCodeRunnerFile.*
+
+# Secrets & Environment Variables
+.env
+.env.*

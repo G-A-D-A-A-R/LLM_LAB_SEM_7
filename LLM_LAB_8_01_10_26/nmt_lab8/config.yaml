@@ -1,0 +1,35 @@
+
+save_data: nmt_lab8/run/example
+src_vocab: nmt_lab8/run/example.vocab.src
+tgt_vocab: nmt_lab8/run/example.vocab.tgt
+overwrite: true
+
+data:
+    corpus_1:
+        path_src: nmt_lab8/src-train.txt
+        path_tgt: nmt_lab8/tgt-train.txt
+    valid:
+        path_src: nmt_lab8/src-valid.txt
+        path_tgt: nmt_lab8/tgt-valid.txt
+
+src_vocab_size: 8000
+tgt_vocab_size: 8000
+
+save_model: nmt_lab8/run/model
+save_checkpoint_steps: 2000
+train_steps: 2000
+valid_steps: 500
+warmup_steps: 200
+report_every: 100
+
+word_vec_size: 256
+hidden_size: 256
+layers: 2
+encoder_type: brnn
+decoder_type: rnn
+global_attention: general
+batch_size: 64
+optim: adam
+learning_rate: 0.001
+dropout: 0.3
+num_workers: 0
